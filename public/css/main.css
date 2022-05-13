@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+.az_custom_front {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif, sans-serif;
+    line-height: 40px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+}
+.az_polygon_price {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 35px 8px 15px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #fff;
+    -webkit-clip-path: polygon(0 0,100% 0,calc(100% - 25px) 50%,100% 100%,0 100%);
+    clip-path: polygon(0 0,100% 0,calc(100% - 25px) 50%,100% 100%,0 100%);
+}
+
+.short_banner:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(30, 49, 72, 0.7);
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.az_card_hover {
+	transition: all .5s;
+}
+.az_card_hover:hover {
+	transition: all .5s;
+	transform: translateY(-10px);
+}
+.az_card_hover .image img {
+	transition: all .5s;	
+}
+.az_card_hover .image img:hover {
+	transition: all .5s;
+	transform: scale(1.2);
+}
+
+.sticky {
+    display: block;
+    position: sticky;
+    overflow: hidden;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.az_card_hover .image {
+}
+.az_card_hover .image:after {
+   	content: "\f0e7";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #fff;
+    background-color: #064e3b;
+    width: 40px;
+    height: 40px;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    -webkit-clip-path: polygon(0 0,100% 0,100% 0,0 100%);
+    clip-path: polygon(0 0,100% 0,100% 0,0 100%);
+}
+
+.az_border_bottom:after {
+    background-color: #064e3b;
+    bottom: 0;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+
+.az_image_card:hover {
+    transition: all .5s;
+}
+.az_image_card .content {
+    background: linear-gradient(to bottom,rgba(0,0,0,.06) 0%,rgba(0,0,0,.1) 7%,rgba(0,0,0,.2) 14%,rgba(0,0,0,.35) 23%,rgba(0,0,0,.66) 38%,rgba(0,0,0,.8) 48%,rgba(0,0,0,.84) 56%,rgba(0,0,0,.85) 62%,rgba(0,0,0,.85) 100%);
+}
+.az_image_card:hover .content {
+    transition: all .5s;
+    background: linear-gradient(to bottom,rgba(40,81,25,.07) 0%,rgba(40,81,25,.11) 7%,rgba(40,81,25,.22) 14%,rgba(40,81,25,.4) 24%,rgba(40,81,25,.72) 37%,rgba(40,81,25,.83) 43%,rgba(40,81,25,.9) 50%,rgba(40,81,25,.95) 62%,rgba(40,81,25,.93) 100%);
+    padding-top: 80px;
+}
+.image {
+    transition: all .5s;
+}
+.az_image_card:hover .image {
+    transition: all .5s;
+    transform: scale(1.2);
+}
+footer {
+    color: white;
+}
+footer li {
+    margin-bottom: 10px;
+}
+
+.socials li {
+    background-color: rgba(255,255,255,.19);
+    display: block;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.socials li:hover {
+    transition: all .3s ease-out;
+    background-color: #064e3b;
+}
+
+.sidebar-social a {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    margin-right: 5px;
+}

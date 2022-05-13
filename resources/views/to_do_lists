@@ -1,0 +1,13 @@
+-- how to create data policy and privacy controller for cookies
+-- example / what is trading name in website creations
+-- complete the cookies policy page  check example at [ === https://listproperty.ng/cookies-policy/ === ]
+
+[ === 
+	{ when designing for agents make sure that you make all hidden fields visible in footer and header field visible i.and make sure you remove Agents Portal in header  }
+=== ]
+
+-- Agent To Show All The Stores And Link To Store
+-- when visting store from agents users monthly subscription must be active if not show messages when accessing store / Store will not be listed in Agents Lists
+
+
+-- Update terms-and-conditions, privacy-policy, cookies-policy when websites agents / users submit property page is completed

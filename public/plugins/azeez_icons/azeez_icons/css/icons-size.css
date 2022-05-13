@@ -1,0 +1,25 @@
+.size-12 { font-size: 12px; }
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }
+.size-24 { font-size: 24px; }
+.size-25 { font-size: 25px; }
+.size-30 { font-size: 30px; }
+.size-32 { font-size: 32px; }
+.size-48 { font-size: 48px; }
+.size-64 { font-size: 64px; }
+.size-96 { font-size: 96px; }
+
+.padding-5 { padding: 5px; }
+.padding-10 { padding: 10px; }
+.padding-15 { padding: 15px; }
+.padding-20 { padding: 20px; }
+
+.margin-5 { margin: 5px; }
+.margin-10 { margin: 10px; }
+.margin-15 { margin: 15px; }
+.margin-20 { margin: 20px; }
+
+.margin-right { margin-right: 5px; }
+.margin-left { margin-left: 5px; }
